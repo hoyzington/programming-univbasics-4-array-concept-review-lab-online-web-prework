@@ -4,7 +4,8 @@ def find_element_index(array, value_to_find)
   else
     array.length.times do |find|
       if array[find] == value_to_find
-      return find
+        return find
+      end
     end
   end
 end
