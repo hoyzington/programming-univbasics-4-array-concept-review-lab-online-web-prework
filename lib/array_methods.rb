@@ -1,10 +1,10 @@
 def find_element_index(array, value_to_find)
   array.length.times do |find|
-    if array.
-    if array[find] == value_to_find
-      return find
-    elsif array[find] == array.length
+    if array.include?(value_to_find) = false
       return nil
+    elsif array[find] == value_to_find
+      return find
+    
     end
   end
 end
